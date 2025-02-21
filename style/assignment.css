@@ -8,10 +8,10 @@
  }
  .logo{
     display: flex;
-    gap: 50px;
+    gap: 20px;
  }
  .logo-images{
-    margin-left: 100px;
+    margin-left: 50px;
  }
   .yellow{
    color: rgba(254, 163, 1, 1);
@@ -31,8 +31,8 @@
     
  }
  .btn{
-  height: 40px;
-  width: 167px;
+  height: 50px;
+  width: 197px;
   background-color: rgba(254, 163, 1, 1);
   color: white;
   border: none;
@@ -53,4 +53,77 @@
    justify-content: space-around;
    text-align: center;
    align-items: center;
+   margin-bottom: 20px;
+ }
+ .hero{
+  display: flex;
+   
+ }
+ .hero-text{
+  height: 330px;
+  width: 640px;
+  margin-left: 130px;
+  margin-top: 20px;
+ }
+ .empower{
+  color: rgba(254, 163, 1, 1);
+ }
+ .kid{
+  margin-right: 70px;
+ }
+ .headline{
+  font-weight: bold;
+ }
+ .highlight{
+  color: rgba(1, 172, 253, 1);
+ }
+ .enroll-btn{
+  color: rgba(255, 255, 255, 1);
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 197px;
+ }
+ .Curriculum{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  position:absolute;
+ }
+ .background-img{
+  margin: 0 auto;
+  max-width: 800px;
+  position:absolute;
+
+ }
+ .curriculum-cards{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+  
+   
+ }
+ .main{
+  margin-top: 10px;
+  
+  
+ }
+ .card-kinder{
+   margin-top: 225px;
+  color: rgba(222, 245, 255, 1);
+ }
+ .card-elementar{
+  margin-top: 230px;
+ }
+ .card-middle{
+  margin-top: 230px;
+ }
+ .Curriculum-01{
+   text-align: center;
+   margin-top: 60px;
+   position: absolute;
+   
+   margin-left: 500px;
  }
