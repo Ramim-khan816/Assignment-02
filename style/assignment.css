@@ -1,139 +1,56 @@
-/* styles.css */
-/* styles.css */
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.header {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+ 
+.quicksand-fonts {
+   font-family: "Quicksand", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+ }
+ .logo{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 1210px;
-    height: 102px;
-}
+    gap: 50px;
+ }
  .logo-images{
-    position: absolute;
-    top: 30px;   
-    left: 150px;
+    margin-left: 100px;
+ }
+  .yellow{
+   color: rgba(254, 163, 1, 1);
+   font-weight: bold;
+  }
+  .green{
+    color: rgba(5, 212, 223, 1);
+  }
+  .blue{
+    color: rgba(1, 172, 253, 1);
+  }
+  .red{
+    color: rgba(93, 88, 239, 1);
+  }
+ li a{
+   text-decoration: none;
+    
+ }
+ .btn{
+  height: 40px;
+  width: 167px;
+  background-color: rgba(254, 163, 1, 1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  gap: 186px;
+ }
+ .nav-links{
+    
+   list-style: none;
+   display: flex;
+   gap: 30px;
+    
+   
  }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: black;
-    right: 250px;
-    
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.nav-links li a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
-
-.contact-btn {
-    background-color: yellow;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
-    background-color: #f9f9f9;
-}
-
-.hero-text {
-    max-width: 500px;
-}
-
-.hero-text h2 {
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.highlight {
-    color: blue;
-}
-
-.enroll-btn {
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-.hero-image {
-    width: 300px;
-}
-
-.curriculum {
-    text-align: center;
-    padding: 50px;
-}
-
-.curriculum-cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.card {
-    background-color: rgba(242, 232, 255, 1) 50%;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 250px;
-    border-radius: 10px;
-    text-align: center;
-    
-}
-
-.card img {
-    width: 100px;
-    margin-bottom: 10px;
-}
-
-.card h4 {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.card p {
-    font-size: 14px;
-    color: gray;
-}
-
-.card a {
-    color: blue;
-    text-decoration: none;
-    margin-top: 10px;
-    display: inline-block;
-}
-.card middle{
-    background-color: rgba(242, 232, 255, 1);
-}
-.background-img{
-    width: 100%;
-    max-width: 1220px;
-    height: 700px;
-}
-
- 
+ .header{
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   align-items: center;
+ }
