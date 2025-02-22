@@ -98,38 +98,36 @@
   margin: 0 auto;
   max-width: 80%;
   position:absolute;
-
+  
  }
  .curriculum-cards{
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-left: 70px;
-  gap: 50px;
-  
-  
-   
+  margin-left: 120px;
+  margin-top: 60px;
+
+  gap: 60px;  
  }
  .main{
   margin-top: 10px;
-  height: ;
   width: 1000px;
-   max-width: 100%;
-  
-  
- }
+  max-width: 100%;
+}
  .card-kinder{
    margin-top: 225px;
   box-shadow: 20px;
-  height: 350px;
-  width: 240px;
+  height: 477px;
+  width: 324px;
   padding: 20px;
+  
   align-items: center;
   text-align: center;
   margin-bottom: 20px;
   justify-content: center;
   border-radius: 8px;
   background: #e5f7ff;
+   
 
  }
  .kinder{
@@ -141,8 +139,8 @@
   margin-top: 230px;
   margin-top: 225px;
   box-shadow: 20px;
-  height: 350px;
-  width: 240px;
+  height: 477px;
+  width: 324px;
   padding: 20px;
   align-items: center;
   text-align: center;
@@ -155,15 +153,15 @@
   margin-top: 230px;
   margin-top: 225px;
   box-shadow: 20px;
-  height: 350px;
-  width: 240px;
+  height: 477px;
+  width: 324px;
   padding: 20px;
   align-items: center;
   text-align: center;
   margin-bottom: 20px;
   justify-content: center;
   border-radius: 8px;
-  background: #e5f7ff;
+  background: rgba(222, 245, 255, 1);
  }
  .Curriculum-01{
    text-align: center;
@@ -187,3 +185,4 @@
   text-decoration: none;
   font-weight: bold;
  }
+
