@@ -90,10 +90,13 @@
   margin-top: 60px;
   margin-bottom: 80px;
   position:absolute;
+  height: 100%;
+  width: 100%;
+   max-width: 80%;
  }
  .background-img{
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 80%;
   position:absolute;
 
  }
@@ -101,24 +104,66 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-left: 70px;
+  gap: 50px;
   
   
    
  }
  .main{
   margin-top: 10px;
+  height: ;
+  width: 1000px;
+   max-width: 100%;
   
   
  }
  .card-kinder{
    margin-top: 225px;
-  color: rgba(222, 245, 255, 1);
+  box-shadow: 20px;
+  height: 350px;
+  width: 240px;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  justify-content: center;
+  border-radius: 8px;
+  background: #e5f7ff;
+
+ }
+ .kinder{
+  margin-bottom: 40px;
+  align-items: center;
+  text-align: center;
  }
  .card-elementar{
   margin-top: 230px;
+  margin-top: 225px;
+  box-shadow: 20px;
+  height: 350px;
+  width: 240px;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  justify-content: center;
+  border-radius: 8px;
+  background: #e5f7ff;
  }
  .card-middle{
   margin-top: 230px;
+  margin-top: 225px;
+  box-shadow: 20px;
+  height: 350px;
+  width: 240px;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  justify-content: center;
+  border-radius: 8px;
+  background: #e5f7ff;
  }
  .Curriculum-01{
    text-align: center;
@@ -126,4 +171,19 @@
    position: absolute;
    
    margin-left: 500px;
+ }
+ .Read-btn{
+  color: rgba(100, 200, 255, 1);
+  text-decoration: none;
+  font-weight: bold;
+ }
+ .more-read{
+  color: rgba(240, 170, 0, 1);
+  text-decoration: none;
+  font-weight: bold;
+ }
+ .more-btn{
+  color: rgba(135, 0, 255, 1);
+  text-decoration: none;
+  font-weight: bold;
  }
