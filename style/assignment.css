@@ -130,8 +130,10 @@
   margin-bottom: 20px;
   justify-content: center;
   border-radius: 8px;
-  background: #e5f7ff;
    
+  background-image:
+  linear-gradient(to top, rgba(255, 255, 255, 1), #FFFFFF, #E8F8FF),
+  url('images/background.jpg');
 
  }
  .kinder{
@@ -142,8 +144,9 @@
  .card-elementar{
   margin-top: 230px;
   margin-top: 225px;
-  box-shadow: 20px;
-  height: 477px;
+  box-shadow: 0px , 4px, 10px 10px rgba(0, 0, 0, 0.1);
+  
+  height: 400px;
   width: 324px;
   padding: 20px;
   align-items: center;
@@ -151,7 +154,9 @@
   margin-bottom: 20px;
   justify-content: center;
   border-radius: 8px;
-  background: #e5f7ff;
+  background-image:
+  linear-gradient(to top, #FFFFFF, rgba(255, 255, 255, 1), #FFF4DC ),
+  url('images/background.jpg');
  }
  .card-middle{
   margin-top: 230px;
@@ -166,6 +171,9 @@
   justify-content: center;
   border-radius: 8px;
   background: rgba(222, 245, 255, 1);
+  background-image:
+  linear-gradient(to top, rgba(255, 255, 255, 1), #FFFFFF, rgba(242, 232, 255, 1)),
+  url('images/background.jpg');
  }
  .Curriculum-01{
    text-align: center;
@@ -212,10 +220,13 @@
   margin-bottom: 60px;
  }
  .ig-background{
-   max-width: 80%;
+   width: 80%;
    margin: 0 auto;
  }
-  
+ .image-00{
+  width: 80%;
+ }
+ /* * { border: 1px solid red; } */
  .section-0000{
    
  }
@@ -229,7 +240,7 @@
    
   padding: 20px;
   text-align: center;
-   margin-top: -800px;
+  margin-top: -440px;
 }
 
 h2 {
@@ -241,7 +252,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-   
+   margin-top: 60px;
   display: flex;
 }
 
@@ -388,28 +399,73 @@ h2 {
 }
 .about-school{
  text-align: start;
- margin-top: 300px;
+ margin-top: 60px;
+
 }
 .nav-li{
   list-style: none;
   font-weight: 500;
-  
+  gap: 20px;
   
 }
 .main-section-01{
-  width: 1439px;
-  height: 519px;
-  background-color: rgba(1, 172, 253, 1);
-  
-  align-items: center;
-  
+  width: 100%;
+  height: 1000%;
+  background-color: rgba(1, 172, 253, 1); 
+   
 }
 .main-0555{
-  margin-top: 425px;
+  margin-top: 90px;
 }
 .blog{
-  margin-top: 40px;
+margin-top: 50px; 
 }
 .white-01{
   color: white;
+
+}
+@media screen and ( max-width: 576px ){
+  .header{
+     
+    border-bottom: 2px solid rgba(254, 163, 1, 1);
+  }
+  .hero{
+     flex-direction: column-reverse;
+     
+     align-items: center;
+     text-align: center;
+
+  }
+  .hero-text{
+    margin: 0 auto;
+  }
+  .curriculum-cards{
+    flex-direction: column;
+    margin-left: auto;
+    align-items: center;
+  }
+  .Curriculum-01{
+     margin: 0 auto; 
+     text-align: center;
+     align-items: center;
+  }
+  .background-img{
+    width: 100%;
+    height: 100%;
+  }
+  .stories-grid{
+    flex-direction: column;
+     
+  }
+  .view-all{
+    text-align: center;
+  }
+  .main-section-02{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
 }
